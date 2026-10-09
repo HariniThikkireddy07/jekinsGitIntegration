@@ -3,7 +3,7 @@ package com.example;
 public class App {
     public static String greeting(String name) {
         if (name == null || name.isBlank()) {
-            return "Hello, DevOps!";
+            return "Hello, DevOps! my name is harini";
         }
         return "Hello, " + name.trim() + "!";
     }
